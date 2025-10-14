@@ -1,5 +1,5 @@
 const url='https://api.openweathermap.org/data/2.5/'
-const key='c36ccfc43ef7b62700a8fa8f79e02c62'
+const key='key place'
 
 const setQuery = (e) => {
     if(e.keyCode == '13')
@@ -35,3 +35,4 @@ const setQuery = (e) => {
 
 const searchBar = document.getElementById('searchBar')
 searchBar.addEventListener('keypress',setQuery)
+
